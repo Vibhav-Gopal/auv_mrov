@@ -1,0 +1,3 @@
+[submodule "src/thrustered_vehicle_motioncontroller"]
+	path = src/thrustered_vehicle_motioncontroller
+	url = https://github.com/auvsocietyiiitdm/thrustered_vehicle_motioncontroller.git
