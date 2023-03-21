@@ -1,0 +1,11 @@
+<launch>
+
+   
+    <node name = "serialnode" pkg = "rosserial_arduino" type = "serial_node.py">
+    <param name="port" value="/dev/ttyUSB0"/>
+    </node>
+    
+    <!-- <node name = "output" pkg = "materov22_pioneer" type = "output"/> -->
+
+    <!-- <node name = "motion_command_executer" pkg = "materov22_pioneer" type = "motion_command_executer"/> -->
+</launch>

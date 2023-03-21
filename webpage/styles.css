@@ -1,0 +1,9 @@
+:root{
+    --scale:1;
+}
+
+#image
+{
+    width:var(--scale)*100;
+    height:var(--scale)*100;
+}

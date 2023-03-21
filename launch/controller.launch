@@ -1,0 +1,12 @@
+<!-- <include file="$(find rosbridge_server)/rosbridge_websocket.launch"/> -->
+
+
+<launch>
+
+
+
+    <node name = "rosbride_websocket" pkg = "rosbridge_server" type = "rosbridge_websocket"/>
+
+
+
+</launch>
